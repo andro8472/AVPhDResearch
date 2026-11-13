@@ -4,6 +4,19 @@
 
 A curated portfolio of Python research workflows for text mining, corpus analysis, information extraction and NLP. The original PhD, *Analysing Film Content: a Text-based Approach*, explored extracting events and narrative information from film scripts and audio-description text.
 
+## Portfolio contents
+
+| Area | Included |
+| --- | --- |
+| Corpus preparation | Punctuation removal, balanced corpus splitting, repeatable sampling and configurable word-frequency filtering |
+| Corpus analysis | N-grams, collocations, stopword filtering and a runnable example using a synthetic corpus |
+| Sentiment and language | Experimental rule-based sentiment scoring, VADER score thresholds and optional language detection |
+| Classification and entity extraction | Rule-based lounge access-denial classification, travel entity matching with a curated lexicon, and summaries grouped by year |
+| Reporting | Weekly through yearly date bucketing |
+| Documentation and testing | Research context, a map from original scripts to current modules, synthetic test fixtures and automated Python tests through GitHub Actions |
+
+The public portfolio excludes the original film scripts, audio descriptions and OpenAI key test. The original Excel dashboards and desktop interfaces remain outside the migrated scope. The published modules have yet to be benchmarked against the original thesis datasets. See the [migration status](docs/migration-status.md) for script-level coverage.
+
 ## Research areas
 
 | Stage | Focus | Source archive |
